@@ -1,0 +1,12 @@
+displayName: Module that provides X-Forwarded-Clientport/X-Forwarded-Http-Ver
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/mrambossek/traefik-extraheaders
+
+summary: '[mram] forward the TCP Source Port of the Client to a Service, as well as the HTTP Protocol Version'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
